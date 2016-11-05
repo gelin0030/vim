@@ -59,7 +59,8 @@ let g:ctrlsf_winsize = '50%'
 "let g:Powerline_symbols = 'solarized256'
 "plugin ctags
 "map <Leader>t :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>  
-
+set encoding=utf-8
+set fileencodings=ucs-bom,utf-8,cp936
 set smartindent
 if has("vms")
       set nobackup	
